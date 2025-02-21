@@ -1,0 +1,4 @@
+[
+    {"hive_id": 1, "honey_production": 30, "colony_health": "Good"},
+    {"hive_id": 2, "honey_production": 25, "colony_health": "Average"}
+]

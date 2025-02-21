@@ -1,0 +1,123 @@
+[
+    {
+      "id": 1,
+      "name": "Product 1",
+      "price": 29.99,
+      "rating": 4.5,
+      "image": "https://via.placeholder.com/150",
+      "category": "Electronics"
+    },
+    {
+      "id": 2,
+      "name": "Product 2",
+      "price": 19.99,
+      "rating": 4.0,
+      "image": "https://via.placeholder.com/150",
+      "category": "Clothing"
+    },
+    {
+      "id": 3,
+      "name": "Product 3",
+      "price": 39.99,
+      "rating": 4.7,
+      "image": "https://via.placeholder.com/150",
+      "category": "Electronics"
+    },
+    {
+      "id": 4,
+      "name": "Product 4",
+      "price": 49.99,
+      "rating": 4.2,
+      "image": "https://via.placeholder.com/150",
+      "category": "Home Appliances"
+    },
+    {
+      "id": 5,
+      "name": "Product 5",
+      "price": 15.99,
+      "rating": 4.8,
+      "image": "https://via.placeholder.com/150",
+      "category": "Clothing"
+    },
+    {
+      "id": 6,
+      "name": "Product 6",
+      "price": 89.99,
+      "rating": 4.3,
+      "image": "https://via.placeholder.com/150",
+      "category": "Electronics"
+    },
+    {
+      "id": 7,
+      "name": "Product 7",
+      "price": 29.99,
+      "rating": 4.1,
+      "image": "https://via.placeholder.com/150",
+      "category": "Gardening"
+    },
+    {
+      "id": 8,
+      "name": "Product 8",
+      "price": 35.50,
+      "rating": 4.6,
+      "image": "https://via.placeholder.com/150",
+      "category": "Home Appliances"
+    },
+    {
+      "id": 9,
+      "name": "Product 9",
+      "price": 99.99,
+      "rating": 4.9,
+      "image": "https://via.placeholder.com/150",
+      "category": "Electronics"
+    },
+    {
+      "id": 10,
+      "name": "Product 10",
+      "price": 24.99,
+      "rating": 3.8,
+      "image": "https://via.placeholder.com/150",
+      "category": "Clothing"
+    },
+    {
+      "id": 11,
+      "name": "Product 11",
+      "price": 75.00,
+      "rating": 4.4,
+      "image": "https://via.placeholder.com/150",
+      "category": "Home Appliances"
+    },
+    {
+      "id": 12,
+      "name": "Product 12",
+      "price": 55.00,
+      "rating": 4.0,
+      "image": "https://via.placeholder.com/150",
+      "category": "Gardening"
+    },
+    {
+      "id": 13,
+      "name": "Product 13",
+      "price": 15.99,
+      "rating": 4.5,
+      "image": "https://via.placeholder.com/150",
+      "category": "Clothing"
+    },
+    {
+      "id": 14,
+      "name": "Product 14",
+      "price": 40.00,
+      "rating": 4.3,
+      "image": "https://via.placeholder.com/150",
+      "category": "Home Appliances"
+    },
+    {
+      "id": 15,
+      "name": "Product 15",
+      "price": 12.50,
+      "rating": 4.6,
+      "image": "https://via.placeholder.com/150",
+      "category": "Gardening"
+    }
+  ]
+  

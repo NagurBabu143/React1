@@ -1,0 +1,24 @@
+{
+    "animals": [
+      { "id": 1, "name": "Bessie", "type": "Cow", "age": 5 },
+      { "id": 2, "name": "Clucky", "type": "Chicken", "age": 2 },
+      { "id": 3, "name": "Daisy", "type": "Goat", "age": 4 }
+    ],
+    "fields": [
+      { "id": 1, "type": "Wheat", "size": 10 },
+      { "id": 2, "type": "Corn", "size": 15 }
+    ],
+    "weather": {
+      "temperature": 25,
+      "condition": "Sunny"
+    },
+    "market": {
+      "grainPrice": 200,
+      "livestockPrice": 150
+    },
+    "feed": [
+      { "id": 1, "type": "Hay", "quantity": 500 },
+      { "id": 2, "type": "Corn Feed", "quantity": 300 }
+    ]
+  }
+  

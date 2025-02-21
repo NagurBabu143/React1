@@ -1,0 +1,106 @@
+.home-page {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #f7f7f7;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    position: relative; 
+  }
+  
+  h1 {
+    color: #333;
+  }
+  
+  h2 {
+    margin-top: 30px;
+    color: #444;
+    transition: color 0.3s;
+  }
+  
+  h2:hover {
+    color: #007bff; 
+  }
+  
+  p {
+    color: #555;
+  }
+  
+  .user-info,
+  .user-stats,
+  .quick-links,
+  .announcements {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #fff;
+    border: 1px solid #eee;
+    border-radius: 8px;
+    transition: box-shadow 0.3s;
+  }
+  
+  .user-info:hover,
+  .user-stats:hover,
+  .quick-links:hover,
+  .announcements:hover {
+    box-shadow: 0 0 15px rgba(0, 123, 255, 0.2); 
+  }
+  
+  .stats-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+  
+  .stat-item {
+    text-align: center;
+    padding: 20px;
+    background-color: #e0f7fa;
+    border: 1px solid #80deea;
+    border-radius: 8px;
+    transition: transform 0.2s;
+  }
+  
+  .stat-item:hover {
+    transform: scale(1.05); 
+  }
+  
+  .quick-links ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .quick-links li {
+    margin: 10px 0;
+  }
+  
+  .quick-links a {
+    text-decoration: none;
+    color: #007bff;
+    transition: color 0.3s;
+  }
+  
+  .quick-links a:hover {
+    color: #0056b3; 
+  }
+  
+  .logout-btn {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background-color: #d32f2f;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+  }
+  
+  .logout-btn:hover {
+    background-color: #c62828; 
+    transform: scale(1.05); }
+  
+  .logout-btn:focus {
+    outline: none; 
+  }

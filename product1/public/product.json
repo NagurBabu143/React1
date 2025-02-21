@@ -1,0 +1,222 @@
+[
+    {
+      "id": 1,
+      "name": "Laptop",
+      "price": 800,
+      "rating": 4.5,
+      "category": "Electronics",
+      "image": "/images/laptop.jpg",
+      "description": "A high-performance laptop for all your computing needs.",
+      "discount": 10,
+      "stock": 5
+    },
+    {
+      "id": 2,
+      "name": "T-Shirt",
+      "price": 20,
+      "rating": 4.2,
+      "category": "Clothing",
+      "image": "/images/tshirt.jpg",
+      "description": "Comfortable cotton T-shirt.",
+      "discount": 5,
+      "stock": 10
+    },
+    {
+      "id": 3,
+      "name": "Sofa",
+      "price": 500,
+      "rating": 4.8,
+      "category": "Furniture",
+      "image": "/images/sofa.jpg",
+      "description": "Spacious and comfortable sofa.",
+      "discount": 15,
+      "stock": 3
+    },
+    {
+      "id": 4,
+      "name": "Headphones",
+      "price": 100,
+      "rating": 4.1,
+      "category": "Electronics",
+      "image": "/images/headphones.jpg",
+      "description": "Noise-canceling over-ear headphones.",
+      "discount": 20,
+      "stock": 8
+    },
+    {
+      "id": 5,
+      "name": "Smartphone",
+      "price": 600,
+      "rating": 4.7,
+      "category": "Electronics",
+      "image": "/images/smartphone.jpg",
+      "description": "Latest smartphone with advanced features.",
+      "discount": 5,
+      "stock": 4
+    },
+    {
+      "id": 6,
+      "name": "Sneakers",
+      "price": 50,
+      "rating": 4.3,
+      "category": "Footwear",
+      "image": "/images/sneakers.jpg",
+      "description": "Stylish and comfortable sneakers.",
+      "discount": 10,
+      "stock": 12
+    },
+    {
+      "id": 7,
+      "name": "Dining Table",
+      "price": 750,
+      "rating": 4.6,
+      "category": "Furniture",
+      "image": "/images/dining-table.jpg",
+      "description": "Elegant wooden dining table.",
+      "discount": 5,
+      "stock": 2
+    },
+    {
+      "id": 8,
+      "name": "Watch",
+      "price": 150,
+      "rating": 4.4,
+      "category": "Accessories",
+      "image": "/images/watch.jpg",
+      "description": "Stylish wristwatch for all occasions.",
+      "discount": 10,
+      "stock": 6
+    },
+    {
+      "id": 9,
+      "name": "Gaming Console",
+      "price": 400,
+      "rating": 4.9,
+      "category": "Electronics",
+      "image": "/images/gaming-console.jpg",
+      "description": "Latest gaming console with high performance.",
+      "discount": 20,
+      "stock": 3
+    },
+    {
+      "id": 10,
+      "name": "Backpack",
+      "price": 40,
+      "rating": 4.3,
+      "category": "Accessories",
+      "image": "/images/backpack.jpg",
+      "description": "Durable backpack for daily use.",
+      "discount": 0,
+      "stock": 15
+    },
+    {
+      "id": 11,
+      "name": "Dress",
+      "price": 70,
+      "rating": 4.2,
+      "category": "Clothing",
+      "image": "/images/dress.jpg",
+      "description": "Stylish dress for any occasion.",
+      "discount": 10,
+      "stock": 7
+    },
+    {
+      "id": 12,
+      "name": "Bookshelf",
+      "price": 300,
+      "rating": 4.5,
+      "category": "Furniture",
+      "image": "/images/bookshelf.jpg",
+      "description": "Spacious bookshelf for your home.",
+      "discount": 15,
+      "stock": 4
+    },
+    {
+      "id": 13,
+      "name": "Running Shoes",
+      "price": 80,
+      "rating": 4.6,
+      "category": "Footwear",
+      "image": "/images/running-shoes.jpg",
+      "description": "Lightweight running shoes for athletes.",
+      "discount": 5,
+      "stock": 10
+    },
+    {
+      "id": 14,
+      "name": "Camera",
+      "price": 900,
+      "rating": 4.8,
+      "category": "Electronics",
+      "image": "/images/camera.jpg",
+      "description": "Professional camera for stunning photography.",
+      "discount": 10,
+      "stock": 2
+    },
+    {
+      "id": 15,
+      "name": "Jacket",
+      "price": 100,
+      "rating": 4.5,
+      "category": "Clothing",
+      "image": "/images/jacket.jpg",
+      "description": "Warm jacket for cold weather.",
+      "discount": 15,
+      "stock": 8
+    },
+    {
+      "id": 16,
+      "name": "Coffee Table",
+      "price": 200,
+      "rating": 4.7,
+      "category": "Furniture",
+      "image": "/images/coffee-table.jpg",
+      "description": "Stylish coffee table for your living room.",
+      "discount": 5,
+      "stock": 5
+    },
+    {
+      "id": 17,
+      "name": "Wireless Mouse",
+      "price": 25,
+      "rating": 4.2,
+      "category": "Electronics",
+      "image": "/images/wireless-mouse.jpg",
+      "description": "Wireless mouse for hassle-free use.",
+      "discount": 0,
+      "stock": 20
+    },
+    {
+      "id": 18,
+      "name": "Sunglasses",
+      "price": 30,
+      "rating": 4.4,
+      "category": "Accessories",
+      "image": "/images/sunglasses.jpg",
+      "description": "Stylish sunglasses for sunny days.",
+      "discount": 10,
+      "stock": 12
+    },
+    {
+      "id": 19,
+      "name": "Formal Shoes",
+      "price": 120,
+      "rating": 4.6,
+      "category": "Footwear",
+      "image": "/images/formal-shoes.jpg",
+      "description": "Elegant formal shoes for special occasions.",
+      "discount": 15,
+      "stock": 6
+    },
+    {
+      "id": 20,
+      "name": "Gaming Chair",
+      "price": 350,
+      "rating": 4.9,
+      "category": "Furniture",
+      "image": "/images/gaming-chair.jpg",
+      "description": "Ergonomic gaming chair for ultimate comfort.",
+      "discount": 10,
+      "stock": 4
+    }
+]

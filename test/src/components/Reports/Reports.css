@@ -1,0 +1,120 @@
+/* 🔹 Container Styling */
+.reports-container {
+    padding: 20px;
+    text-align: center;
+    animation: fadeIn 0.8s ease-in-out;
+  }
+  
+  /* 🔹 Title & Subtitle */
+  .reports-title {
+    font-size: 30px;
+    font-weight: bold;
+    color: #2c3e50;
+    margin-bottom: 10px;
+  }
+  
+  .reports-subtitle {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 20px;
+  }
+  
+  /* 🔹 Search Bar */
+  .report-search {
+    width: 50%;
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #1abc9c;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    outline: none;
+    transition: 0.3s ease;
+  }
+  
+  .report-search:focus {
+    border-color: #16a085;
+  }
+  
+  /* 🔹 Reports Grid */
+  .reports-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 10px;
+  }
+  
+  /* 🔹 Report Cards */
+  .report-card {
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+    text-align: center;
+    animation: slideIn 0.8s ease-in-out;
+    position: relative;
+  }
+  
+  .report-card h3 {
+    font-size: 20px;
+    color: #1abc9c;
+    margin-bottom: 5px;
+  }
+  
+  .report-card p {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 10px;
+  }
+  
+  /* 🔹 Download Button */
+  .download-btn {
+    background: #1abc9c;
+    color: white;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .download-btn:hover {
+    background: #16a085;
+  }
+  
+  /* 🔹 Hover Effect */
+  .report-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+  }
+  
+  /* 🔹 No Results Message */
+  .no-results {
+    font-size: 16px;
+    color: red;
+    font-weight: bold;
+  }
+  
+  /* 🔹 Animations */
+  @keyframes fadeIn {
+    from { opacity: 0; transform: translateY(-10px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+  
+  @keyframes slideIn {
+    from { opacity: 0; transform: scale(0.9); }
+    to { opacity: 1; transform: scale(1); }
+  }
+  
+  /* 🔹 Responsive Design */
+  @media (max-width: 768px) {
+    .reports-grid {
+      grid-template-columns: 1fr;
+    }
+    .report-search {
+      width: 90%;
+    }
+  }
+  

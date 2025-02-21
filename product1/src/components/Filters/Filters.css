@@ -1,0 +1,24 @@
+.filters {
+    margin: 20px 0;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+  }
+  
+  .filter-group {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  select,
+  input {
+    width: 100%;
+    padding: 5px;
+    font-size: 1rem;
+  }
+  

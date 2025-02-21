@@ -1,0 +1,138 @@
+[
+    {
+      "id": 1,
+      "name": "Paris",
+      "country": "France",
+      "description": "The city of love and lights.",
+      "bestSeason": "Spring",
+      "budget": "High",
+      "image": "/images/paris.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Bali",
+      "country": "Indonesia",
+      "description": "A tropical paradise with stunning beaches.",
+      "bestSeason": "Summer",
+      "budget": "Medium",
+      "image": "/images/bali.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Tokyo",
+      "country": "Japan",
+      "description": "A futuristic city with deep-rooted traditions.",
+      "bestSeason": "Autumn",
+      "budget": "High",
+      "image": "/images/tokyo.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Rome",
+      "country": "Italy",
+      "description": "The Eternal City with rich history and architecture.",
+      "bestSeason": "Spring",
+      "budget": "High",
+      "image": "/images/rome.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Sydney",
+      "country": "Australia",
+      "description": "A vibrant city with iconic landmarks and beaches.",
+      "bestSeason": "Summer",
+      "budget": "High",
+      "image": "/images/sydney.jpg"
+    },
+    {
+      "id": 6,
+      "name": "New York",
+      "country": "USA",
+      "description": "The city that never sleeps.",
+      "bestSeason": "Winter",
+      "budget": "High",
+      "image": "/images/newyork.jpg"
+    },
+    {
+      "id": 7,
+      "name": "Cairo",
+      "country": "Egypt",
+      "description": "Home to the Great Pyramids and ancient history.",
+      "bestSeason": "Winter",
+      "budget": "Low",
+      "image": "/images/cairo.jpg"
+    },
+    {
+      "id": 8,
+      "name": "Rio de Janeiro",
+      "country": "Brazil",
+      "description": "Famous for its carnival, beaches, and Christ the Redeemer.",
+      "bestSeason": "Summer",
+      "budget": "Medium",
+      "image": "/images/rio.jpg"
+    },
+    {
+      "id": 9,
+      "name": "Cape Town",
+      "country": "South Africa",
+      "description": "A beautiful coastal city with Table Mountain.",
+      "bestSeason": "Spring",
+      "budget": "Medium",
+      "image": "/images/capetown.jpg"
+    },
+    {
+      "id": 10,
+      "name": "Bangkok",
+      "country": "Thailand",
+      "description": "A city with amazing street food and vibrant nightlife.",
+      "bestSeason": "Winter",
+      "budget": "Low",
+      "image": "/images/bangkok.jpg"
+    },
+    {
+      "id": 11,
+      "name": "Dubai",
+      "country": "UAE",
+      "description": "A luxury destination with incredible skyscrapers.",
+      "bestSeason": "Winter",
+      "budget": "High",
+      "image": "/images/dubai.jpg"
+    },
+    {
+      "id": 12,
+      "name": "Santorini",
+      "country": "Greece",
+      "description": "A picturesque island with white-washed buildings.",
+      "bestSeason": "Summer",
+      "budget": "Medium",
+      "image": "/images/santorini.jpg"
+    },
+    {
+      "id": 13,
+      "name": "Amsterdam",
+      "country": "Netherlands",
+      "description": "A city with canals, museums, and vibrant culture.",
+      "bestSeason": "Autumn",
+      "budget": "Medium",
+      "image": "/images/amsterdam.jpg"
+    },
+    {
+      "id": 14,
+      "name": "Moscow",
+      "country": "Russia",
+      "description": "A city with stunning architecture and rich history.",
+      "bestSeason": "Winter",
+      "budget": "Medium",
+      "image": "/images/moscow.jpg"
+    },
+    {
+      "id": 15,
+      "name": "Venice",
+      "country": "Italy",
+      "description": "A romantic city with gondolas and canals.",
+      "bestSeason": "Spring",
+      "budget": "High",
+      "image": "/images/venice.jpg"
+    }
+  ]
+  

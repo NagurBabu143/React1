@@ -1,0 +1,19 @@
+.animal {
+    position: absolute;
+    font-size: 2em;
+    cursor: grab;
+    user-select: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .animal:hover {
+    transform: scale(1.1);
+  }
+  
+  .animal-name {
+    font-size: 0.5em;
+    margin-top: 0.2em;
+  }
+  

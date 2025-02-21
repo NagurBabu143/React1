@@ -1,0 +1,55 @@
+.testimonials {
+    padding: 40px;
+    background-color: #f8c3c3; /* Light gray background */
+    color: #333; /* Dark text color */
+    text-align: center;
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    animation: fadeIn 1s ease-in-out; /* Fade-in effect */
+}
+
+.testimonial-list {
+    display: flex; /* Use flexbox for horizontal layout */
+    justify-content: space-around; /* Space items evenly */
+    flex-wrap: wrap; /* Allow wrapping on smaller screens */
+    margin-top: 20px; /* Space above testimonial items */
+}
+
+.testimonial-item {
+    background-color: #ffffff; /* White background for testimonial items */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    padding: 20px;
+    margin: 15px; /* Space between items */
+    width: 20%; /* Set width for items */
+    max-width: 300px; /* Max width for larger screens */
+    transition: transform 0.3s; /* Animation for scaling effect */
+}
+
+/* Client name styling */
+.client-name {
+    font-weight: bold; /* Bold text for client names */
+    margin-top: 10px; /* Space above client names */
+}
+
+/* Scale effect on hover */
+.testimonial-item:hover {
+    transform: scale(1.05); /* Scale up slightly */
+}
+
+/* Fade-in animation */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .testimonial-item {
+        width: 45%; /* Adjust width for smaller screens */
+    }
+}

@@ -1,0 +1,155 @@
+.header {
+    background: linear-gradient(to bottom right, #fa2b2b, #9cfd65);
+    color: white; 
+    padding: 20px;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4); 
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+  }
+  
+  .navbar h1 {
+    font-size: 2.5em;
+    font-family: 'Arial', sans-serif; 
+    transition: color 0.3s; 
+  }
+  
+  .navbar h1:hover {
+    color: #28f45b; 
+  }
+  
+  .navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 20px; 
+  }
+  
+  .navbar li {
+    position: relative; 
+  }
+  
+  .navbar a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold; 
+    transition: color 0.3s, transform 0.2s; 
+  }
+  
+  .navbar a:hover {
+    color: #ffcc00; 
+    transform: scale(1.1); 
+  }
+  
+  .hero {
+    text-align: center;
+    margin-top: 30px;
+    animation: slideIn 1.5s; 
+  }
+  
+  .hero h2 {
+    font-size: 3em;
+    margin-bottom: 10px; 
+  }
+  
+  
+  .hero p {
+    font-size: 1.5em;
+    margin-bottom: 20px; 
+  }
+  
+  .explore-btn {
+    padding: 15px 30px;
+    background-color: #6200ff; 
+    color: #333; 
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em; 
+    transition: background-color 0.3s, transform 0.2s; 
+  }
+  
+  .explore-btn:hover {
+    background-color: #ffd700; 
+    transform: translateY(-2px); 
+  }
+  
+  .search-form {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center; 
+  }
+  
+  .search-bar {
+    padding: 10px;
+    border: none;
+    border-radius: 5px 0 0 5px; 
+    outline: none; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); 
+    transition: box-shadow 0.3s; 
+  }
+  
+  .search-bar:focus {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); 
+  }
+  
+  .search-btn {
+    padding: 10px;
+    border: none;
+    border-radius: 0 5px 5px 0; 
+    background-color: #ffcc00; 
+    color: #333; 
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s; 
+  }
+  
+  .search-btn:hover {
+    background-color: #ffd700; 
+    transform: translateY(-2px); 
+  }
+  
+  .social-icons {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .social-icons .icon {
+    margin: 0 10px; 
+    color: white; 
+    transition: transform 0.3s;
+  }
+  
+  .social-icons .icon:hover {
+    transform: scale(1.2); 
+    color: #4a05f9;
+  }
+  
+  @keyframes slideIn {
+    from {
+      opacity: 0;
+      transform: translateY(-20px); 
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .navbar ul {
+      flex-direction: column; 
+      gap: 10px; 
+    }
+    .hero h2 {
+      font-size: 2.5em; 
+    }
+    .hero p {
+      font-size: 1.2em; 
+    }
+  }
+  

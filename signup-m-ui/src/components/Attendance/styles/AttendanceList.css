@@ -1,0 +1,12 @@
+.attendance-list {
+    padding: 20px;
+    margin-top: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .attendance-list table {
+    width: 100%;
+  }
+  

@@ -1,0 +1,20 @@
+.grandchild {
+    padding: 10px;
+    border: 1px solid #303f9f;
+    margin: 10px 0;
+    border-radius: 5px;
+    background-color: #c5cae9;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .grandchild p {
+    font-size: 16px;
+    color: #1a237e;
+    margin: 0;
+  }
+  
+  .grandchild p span {
+    font-weight: bold;
+    color: #3949ab;
+  }
+  

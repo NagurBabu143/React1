@@ -1,0 +1,114 @@
+.expenses-container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #f9f9f9;
+    border-radius: 12px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    animation: fadeIn 0.8s ease-in-out;
+  }
+  
+  .expenses-title {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .expenses-subtitle {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 20px;
+  }
+  
+  .expense-search {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    margin-bottom: 20px;
+  }
+  
+  .expense-table {
+    overflow-x: auto;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+  }
+  
+  th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  th {
+    background: #f0f0f0;
+  }
+  
+  tr:hover {
+    background: #f1f1f1;
+    transition: background 0.3s;
+  }
+  
+  .no-results {
+    text-align: center;
+    font-weight: bold;
+    color: red;
+  }
+  .expenses-container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .expense-search {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .expense-form input {
+    padding: 8px;
+    margin: 5px;
+  }
+  
+  .add-btn, .update-btn, .edit-btn, .delete-btn {
+    padding: 8px;
+    margin: 5px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .add-btn { background-color: green; color: white; }
+  .update-btn { background-color: orange; color: white; }
+  .edit-btn { background-color: blue; color: white; }
+  .delete-btn { background-color: red; color: white; }
+  
+  .total-expenses {
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    background: #e3f2fd;
+    padding: 10px;
+    border-radius: 6px;
+    animation: bounceIn 0.8s ease-in-out;
+  }
+  
+  /* Animations */
+  @keyframes fadeIn {
+    from { opacity: 0; transform: translateY(-10px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+  
+  @keyframes bounceIn {
+    0% { transform: scale(0.9); }
+    50% { transform: scale(1.05); }
+    100% { transform: scale(1); }
+  }
+  

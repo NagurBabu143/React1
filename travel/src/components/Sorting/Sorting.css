@@ -1,0 +1,15 @@
+.sorting {
+    display: block;
+    margin: 0 auto;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #fff;
+    width: 150px; 
+  }
+  
+  .sorting option {
+    padding: 10px;
+  }
+  

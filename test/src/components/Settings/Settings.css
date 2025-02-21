@@ -1,0 +1,66 @@
+.settings-container {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .settings-container.dark {
+    background: #1e1e1e;
+    color: #fff;
+  }
+  
+  .settings-section {
+    margin-bottom: 20px;
+  }
+  
+  .settings-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  input, select, button {
+    padding: 8px;
+    margin-left: 10px;
+    border-radius: 4px;
+  }
+  
+  .toggle-btn.enabled {
+    background: green;
+    color: white;
+  }
+  
+  .toggle-btn.disabled {
+    background: red;
+    color: white;
+  }
+  
+  .save-btn, .reset-btn, .backup-btn, .delete-btn {
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .save-btn {
+    background: blue;
+    color: white;
+  }
+  
+  .reset-btn {
+    background: orange;
+    color: white;
+  }
+  
+  .backup-btn {
+    background: green;
+    color: white;
+  }
+  
+  .delete-btn {
+    background: red;
+    color: white;
+  }
+  

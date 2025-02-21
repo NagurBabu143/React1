@@ -1,0 +1,42 @@
+.filter-section {
+    background-color: #f0f4ff;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    margin: 20px auto; 
+    max-width: 500px; 
+  }
+  
+  .filter-section:hover {
+    background-color: #e1e9ff;
+    transform: scale(1.02);
+  }
+  
+  .filter-title {
+    font-weight: 600;
+    color: #3f51b5;
+    margin-bottom: 15px;
+    text-align: center;
+  }
+  
+  .filter-select {
+    width: 100%;
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid #3f51b5;
+    font-size: 16px;
+    color: #333;
+    transition: border-color 0.3s ease;
+  }
+  
+  .filter-select:hover {
+    border-color: #1e88e5;
+  }
+  
+  .filter-select:focus {
+    outline: none;
+    border-color: #1e88e5;
+    box-shadow: 0 0 5px rgba(30, 136, 229, 0.5);
+  }
+  

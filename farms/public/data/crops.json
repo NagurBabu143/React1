@@ -1,0 +1,21 @@
+[
+    {
+      "id": 1,
+      "name": "Wheat",
+      "growthStage": "Harvesting",
+      "plantedDate": "2024-01-10",
+      "harvestDate": "2024-06-15",
+      "yield": "500 kg",
+      "maintenance": "Weekly irrigation, monthly fertilization"
+    },
+    {
+      "id": 2,
+      "name": "Corn",
+      "growthStage": "Growing",
+      "plantedDate": "2024-02-05",
+      "harvestDate": "2024-07-20",
+      "yield": "800 kg",
+      "maintenance": "Daily watering, pest control every 15 days"
+    }
+  ]
+  

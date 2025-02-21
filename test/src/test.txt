@@ -1,0 +1,538 @@
+
+1. Introduction to React
+What is React?
+Setting up a React project (create-react-app)
+2. JSX (JavaScript XML)
+Writing JSX
+JSX vs JavaScript
+3. React Components
+Functional Components
+Class Components
+4. Props (Properties)
+Passing data to components
+Using props in functional components
+5. State in React
+useState Hook (Managing component state)
+Updating state
+6. Handling Events
+Handling button clicks
+Handling input changes
+7. Conditional Rendering
+if statements and ternary operators
+&& operator for rendering
+8. Lists and Keys
+Rendering lists in React
+Using the key prop
+9. Forms and Input Handling
+Controlled components
+Uncontrolled components
+10. React Hooks (Basics)
+useState (Managing state)
+useEffect (Side effects and API calls)
+11. Fetching Data from an API
+Using fetch
+Displaying data in components
+12. CSS in React
+Inline styles
+External CSS files
+Styled Components
+13. Context API (State Management)
+Creating and using context
+14. React Router (Optional if needed)
+Navigating between pages
+We'll start with Step 1: Introduction to React.
+
+What is React?
+React is a JavaScript library for building user interfaces. It allows you to create reusable UI components and manage the state of your application efficiently.
+
+Setting up a React Project
+To create a React app, use:
+
+
+npx create-react-app my-app
+cd my-app
+npm start
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Step 1: Introduction to React
+What is React?
+React is a JavaScript library used to build user interfaces (UI), mainly for single-page applications. It allows developers to create reusable components and efficiently manage the UI state.
+
+Why Use React?
+Component-Based: Build UI using small reusable pieces called components.
+Fast & Efficient: Uses a virtual DOM for quick updates.
+Declarative: Define UI based on the current state.
+Strong Community: Backed by Facebook and widely used in industry.
+Setting Up a React Project
+To start using React, follow these steps:
+
+1. Install Node.js
+Download and install Node.js from nodejs.org.
+
+2. Create a New React App
+Open your terminal or command prompt and run:
+
+
+npx create-react-app my-app
+Replace my-app with your project name.
+
+3. Navigate into the Project Folder
+
+cd my-app
+4. Start the Development Server
+
+npm start
+This opens your React app in the browser (http://localhost:3000).
+
+React Project Structure
+After running create-react-app, your folder structure looks like this:
+
+csharp
+Copy
+Edit
+my-app
+│── node_modules/        # Dependencies (auto-generated)
+│── public/              # Public assets (HTML, images)
+│── src/                 # Main React code
+│   ├── App.js           # Main component
+│   ├── index.js         # Renders React app
+│   ├── App.css          # Styles for App.js
+│   ├── index.css        # Global styles
+│── package.json         # Project configuration
+│── README.md            # Project documentation
+Step 2: JSX (JavaScript XML)
+What is JSX?
+JSX (JavaScript XML) is a syntax extension that allows writing HTML inside JavaScript.
+
+Example 1: JSX in Action
+const element = <h1>Hello, React!</h1>;
+This looks like HTML but is actually JavaScript.
+
+Example 2: JSX inside a Component
+function Greeting() {
+  return <h1>Welcome to React!</h1>;
+}
+
+export default Greeting;
+Why Use JSX?
+Easier to Write & Understand
+Prevents XSS Attacks
+Optimized by React for Performance
+JSX vs JavaScript
+JSX is not required, but it makes React code more readable.
+
+Without JSX (using React.createElement)
+
+const element = React.createElement("h1", null, "Hello, React!");
+This does the same thing as:
+
+const element = <h1>Hello, React!</h1>;
+Step 3: React Components
+React apps are built using components.
+
+Types of Components
+Functional Components (Recommended)
+Class Components (Older method)
+Functional Component (Simple & Recommended)
+function Welcome() {
+  return <h1>Hello, React!</h1>;
+}
+
+export default Welcome;
+Just a function that returns JSX
+No need for this
+Supports Hooks
+Class Component (Old Method)
+import React, { Component } from "react";
+
+class Welcome extends Component {
+  render() {
+    return <h1>Hello, React!</h1>;
+  }
+}
+
+export default Welcome;
+Uses render() method
+Requires this.props
+Step 4: Props (Passing Data)
+Props (short for properties) allow passing data from parent to child components.
+
+Example 1: Using Props in a Functional Component
+function Greeting(props) {
+  return <h1>Hello, {props.name}!</h1>;
+}
+
+function App() {
+  return <Greeting name="Nagurbabu" />;
+}
+
+export default App;
+Explanation:
+
+props.name gets the value "Nagurbabu"
+Parent (App) passes name="Nagurbabu" to child (Greeting)
+Step 5: State in React
+State is used to manage dynamic data in a component.
+
+Using useState Hook in Functional Component
+import React, { useState } from "react";
+
+function Counter() {
+  const [count, setCount] = useState(0);
+
+  return (
+    <div>
+      <p>Count: {count}</p>
+      <button onClick={() => setCount(count + 1)}>Increase</button>
+    </div>
+  );
+}
+
+export default Counter;
+Explanation:
+
+useState(0) initializes count to 0
+setCount(count + 1) updates the value
+Clicking the button increases the count
+Step 6: Handling Events in React
+React handles events just like JavaScript but uses camelCase (onClick, onChange).
+
+Example: Handling a Button Click
+function ButtonClick() {
+  function handleClick() {
+    alert("Button Clicked!");
+  }
+
+  return <button onClick={handleClick}>Click Me</button>;
+}
+
+export default ButtonClick;
+Explanation:
+
+onClick={handleClick} calls the function when clicked
+Do NOT use handleClick() inside onClick (It will call immediately)
+Step 7: Conditional Rendering
+Render components based on conditions.
+
+Example: Using if Condition
+function Welcome(props) {
+  if (props.isLoggedIn) {
+    return <h1>Welcome back!</h1>;
+  } else {
+    return <h1>Please log in.</h1>;
+  }
+}
+
+export default Welcome;
+Explanation:
+
+If isLoggedIn is true, show "Welcome back!"
+If false, show "Please log in."
+Step 8: Lists and Keys
+Example: Rendering a List of Items
+function NameList() {
+  const names = ["Alice", "Bob", "Charlie"];
+
+  return (
+    <ul>
+      {names.map((name, index) => (
+        <li key={index}>{name}</li>
+      ))}
+    </ul>
+  );
+}
+
+export default NameList;
+Explanation:
+
+map() loops through names
+Each item must have a unique key
+Next Steps
+So far, we covered:
+✅ Introduction to React
+✅ JSX
+✅ Components
+✅ Props
+✅ State (useState)
+✅ Event Handling
+✅ Conditional Rendering
+✅ Lists and Keys
+
+
+
+
+Step 9: Forms and Input Handling in React
+Forms in React are controlled using state.
+
+Example: Controlled Input Field
+import React, { useState } from "react";
+
+function FormExample() {
+  const [name, setName] = useState("");
+
+  function handleChange(event) {
+    setName(event.target.value);
+  }
+
+  function handleSubmit(event) {
+    event.preventDefault();
+    alert("Submitted Name: " + name);
+  }
+
+  return (
+    <form onSubmit={handleSubmit}>
+      <input type="text" value={name} onChange={handleChange} />
+      <button type="submit">Submit</button>
+    </form>
+  );
+}
+
+export default FormExample;
+Explanation:
+
+value={name} binds input to state
+onChange updates name as user types
+onSubmit prevents page refresh
+Step 10: useEffect Hook (Side Effects in React)
+The useEffect hook lets us run code after the component renders.
+
+Example: useEffect with API Call
+import React, { useState, useEffect } from "react";
+
+function DataFetching() {
+  const [data, setData] = useState([]);
+
+  useEffect(() => {
+    fetch("https://jsonplaceholder.typicode.com/posts")
+      .then((response) => response.json())
+      .then((data) => setData(data));
+  }, []);
+
+  return (
+    <ul>
+      {data.slice(0, 5).map((item) => (
+        <li key={item.id}>{item.title}</li>
+      ))}
+    </ul>
+  );
+}
+
+export default DataFetching;
+Explanation:
+
+Runs fetch() once after render ([] dependency array)
+Updates data with API response
+Step 11: Fetching Data from an API
+We can fetch API data inside useEffect.
+
+Example: Fetching and Displaying Users
+import React, { useState, useEffect } from "react";
+
+function UsersList() {
+  const [users, setUsers] = useState([]);
+
+  useEffect(() => {
+    fetch("https://jsonplaceholder.typicode.com/users")
+      .then((response) => response.json())
+      .then((data) => setUsers(data));
+  }, []);
+
+  return (
+    <div>
+      <h2>Users:</h2>
+      <ul>
+        {users.map((user) => (
+          <li key={user.id}>{user.name}</li>
+        ))}
+      </ul>
+    </div>
+  );
+}
+
+export default UsersList;
+Explanation:
+
+Fetches user data on mount
+Uses .map() to display user names
+Step 12: Context API (Global State Management)
+Instead of passing props deeply in components, we use Context API to manage global state.
+
+1. Create Context (UserContext.js)
+import { createContext } from "react";
+
+const UserContext = createContext();
+
+export default UserContext;
+2. Provide Context in App.js
+import React, { useState } from "react";
+import UserContext from "./UserContext";
+import Profile from "./Profile";
+
+function App() {
+  const [user, setUser] = useState("Nagurbabu");
+
+  return (
+    <UserContext.Provider value={user}>
+      <Profile />
+    </UserContext.Provider>
+  );
+}
+
+export default App;
+3. Consume Context in Profile.js
+import React, { useContext } from "react";
+import UserContext from "./UserContext";
+
+function Profile() {
+  const user = useContext(UserContext);
+
+  return <h1>Welcome, {user}!</h1>;
+}
+
+export default Profile;
+Explanation:
+
+UserContext.Provider makes user available to all child components.
+useContext(UserContext) gets the user value.
+Step 13: CSS in React
+We can style React apps using CSS files, inline styles, or styled-components.
+
+1. External CSS (App.css)
+css
+Copy
+Edit
+h1 {
+  color: blue;
+}
+import "./App.css";
+
+function App() {
+  return <h1>Hello React</h1>;
+}
+
+export default App;
+2. Inline Styles
+function App() {
+  return <h1 style={{ color: "blue", fontSize: "24px" }}>Hello React</h1>;
+}
+
+export default App;
+3. Styled Components
+
+npm install styled-components
+import styled from "styled-components";
+
+const StyledButton = styled.button`
+  background-color: blue;
+  color: white;
+  padding: 10px;
+`;
+
+function App() {
+  return <StyledButton>Click Me</StyledButton>;
+}
+
+export default App;
+Step 14: React Router (Navigation)
+React Router allows navigating between pages.
+
+1. Install React Router
+
+npm install react-router-dom
+2. Create Routes in App.js
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Home from "./Home";
+import About from "./About";
+
+function App() {
+  return (
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+      </Routes>
+    </BrowserRouter>
+  );
+}
+
+export default App;
+3. Create Component Files
+Home.js
+
+function Home() {
+  return <h1>Home Page</h1>;
+}
+
+export default Home;
+About.js
+
+function About() {
+  return <h1>About Page</h1>;
+}
+
+export default About;
+4. Create Navigation (Navbar.js)
+import { Link } from "react-router-dom";
+
+function Navbar() {
+  return (
+    <nav>
+      <Link to="/">Home</Link>
+      <Link to="/about">About</Link>
+    </nav>
+  );
+}
+
+export default Navbar;
+Step 15: React Forms (Handling Multiple Inputs)
+import React, { useState } from "react";
+
+function MultiInputForm() {
+  const [formData, setFormData] = useState({ name: "", email: "" });
+
+  function handleChange(event) {
+    setFormData({ ...formData, [event.target.name]: event.target.value });
+  }
+
+  function handleSubmit(event) {
+    event.preventDefault();
+    alert(`Name: ${formData.name}, Email: ${formData.email}`);
+  }
+
+  return (
+    <form onSubmit={handleSubmit}>
+      <input name="name" value={formData.name} onChange={handleChange} />
+      <input name="email" value={formData.email} onChange={handleChange} />
+      <button type="submit">Submit</button>
+    </form>
+  );
+}
+
+export default MultiInputForm;

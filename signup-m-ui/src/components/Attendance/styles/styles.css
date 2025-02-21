@@ -1,0 +1,247 @@
+/* Global Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to right, #6a11cb, #2575fc);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    transition: all 0.3s ease-in-out;
+    overflow-x: hidden;
+}
+
+/* Form Container */
+.form-container {
+    padding: 30px;
+    margin: 20px auto;
+    background: rgba(255, 255, 255, 0.95);
+    border-radius: 15px;
+    box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.3);
+    width: 100%;
+    max-width: 450px;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    animation: fadeIn 0.6s ease-in-out;
+    position: relative;
+}
+
+.form-container:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.5);
+}
+
+/* Heading */
+h2 {
+    text-align: center;
+    color: #333;
+    font-size: 28px;
+    font-weight: bold;
+    text-transform: uppercase;
+    animation: slideIn 0.5s ease-in-out;
+}
+
+/* Input Fields */
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="date"],
+select {
+    width: 100%;
+    padding: 12px;
+    margin: 12px 0;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    font-size: 16px;
+    transition: all 0.3s ease-in-out;
+    background: #f9f9f9;
+    box-shadow: inset 3px 3px 8px rgba(0, 0, 0, 0.1);
+}
+
+input:focus,
+select:focus {
+    border-color: #ff5722;
+    outline: none;
+    box-shadow: 0px 0px 15px rgba(255, 87, 34, 0.6);
+    transform: scale(1.03);
+}
+
+/* Buttons */
+button {
+    display: inline-block;
+    width: 100%;
+    padding: 14px;
+    margin-top: 12px;
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    position: relative;
+    overflow: hidden;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+button::after {
+    content: "";
+    position: absolute;
+    left: -100%;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.2);
+    transition: all 0.3s ease-in-out;
+}
+
+button:hover::after {
+    left: 100%;
+}
+
+button.login {
+    background: linear-gradient(to right, #28a745, #34d058);
+    box-shadow: 0px 5px 10px rgba(40, 167, 69, 0.4);
+    position: relative;
+}
+
+button.login:hover {
+    background: linear-gradient(to right, #218838, #2ea44f);
+    transform: scale(1.07);
+}
+
+button.logout {
+    background: linear-gradient(to right, #dc3545, #ff6b6b);
+    box-shadow: 0px 5px 10px rgba(220, 53, 69, 0.4);
+}
+
+button.logout:hover {
+    background: linear-gradient(to right, #c82333, #e63946);
+    transform: scale(1.07);
+}
+
+/* Table Container */
+.table-container {
+    margin: 20px auto;
+    padding: 25px;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.3);
+    width: 100%;
+    max-width: 950px;
+    overflow-x: auto;
+    animation: fadeIn 0.8s ease-in-out;
+    position: relative;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 14px;
+    text-align: left;
+    font-size: 16px;
+    transition: all 0.3s ease-in-out;
+}
+
+th {
+    background: linear-gradient(to right, #007bff, #00c6ff);
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+tr:nth-child(even) {
+    background-color: #f7f7f7;
+}
+
+tr:hover {
+    background-color: #ddd;
+    transition: all 0.3s ease-in-out;
+    transform: scale(1.02);
+}
+
+/* Animations */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes slideIn {
+    from {
+        opacity: 0;
+        transform: translateX(-50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+/* Loader Animation */
+.loader {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 5px solid rgba(255, 255, 255, 0.3);
+    border-top-color: #fff;
+    animation: spin 1s infinite linear;
+    margin: auto;
+}
+
+@keyframes spin {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+/* Card Animation */
+.card {
+    padding: 20px;
+    border-radius: 10px;
+    background: white;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.5);
+}
+
+/* Hover Effect for Form */
+.form-container:hover {
+    box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.6);
+}
+
+/* Responsive Design */
+@media screen and (max-width: 600px) {
+    .form-container, .table-container {
+        width: 90%;
+        max-width: none;
+    }
+
+    th, td {
+        font-size: 14px;
+        padding: 10px;
+    }
+
+    button {
+        font-size: 16px;
+    }
+}

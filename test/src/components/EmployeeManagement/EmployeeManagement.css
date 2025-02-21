@@ -1,0 +1,96 @@
+.employee-management {
+    text-align: center;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .employee-management h2 {
+    color: #2c3e50;
+  }
+  
+  .employee-management p {
+    font-size: 16px;
+    color: #555;
+  }
+  
+
+  .employee-list {
+    margin: 20px 0;
+  }
+  
+  .employee-list h3 {
+    color: #27ae60;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+  }
+  
+  th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  th {
+    background-color: #2c3e50;
+    color: white;
+  }
+  
+  td select {
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+
+  .remove-btn {
+    background: #e74c3c;
+    color: white;
+    border: none;
+    padding: 8px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .remove-btn:hover {
+    background: #c0392b;
+  }
+  
+
+  .add-employee {
+    margin-top: 20px;
+    background: white;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .add-employee input {
+    width: 80%;
+    padding: 8px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .add-employee button {
+    background: #27ae60;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .add-employee button:hover {
+    background: #219150;
+  }
+  

@@ -1,0 +1,100 @@
+.header {
+    background: linear-gradient(135deg, #6b5b95, #feb236); /* Gradient background */
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 30px; /* Add padding for space */
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2); /* Lighter border for separation */
+}
+
+.logo {
+    display: flex;
+    align-items: center; /* Center align items vertically */
+}
+
+.logo img {
+    height: 50px; /* Set logo height */
+   border-radius: 50px ;
+    margin-right: 10px; /* Space between logo and title */
+}
+
+.header h1 {
+    margin: 0; /* Remove default margin */
+    font-size: 24px; /* Set a larger font size for the title */
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0; /* Remove default margin */
+    display: flex; /* Display links in a row */
+}
+
+nav ul li {
+    margin-left: 20px; /* Add space between links */
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    position: relative; /* For underline animation */
+    transition: color 0.3s ease; /* Smooth color transition */
+}
+
+nav ul li a::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: white;
+    transition: width 0.3s ease;
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+}
+
+nav ul li a:hover {
+    color: #f2f2f2; /* Change text color on hover */
+}
+
+nav ul li a:hover::after {
+    width: 100%; /* Animate underline */
+}
+
+.header-right {
+    display: flex;
+    align-items: center; /* Center align items vertically */
+}
+
+.search-bar {
+    padding: 8px; /* Add padding */
+    border: none;
+    border-radius: 5px; /* Rounded corners */
+    margin-right: 20px; /* Space between search bar and profile */
+    font-size: 16px; /* Font size for input */
+}
+
+.profile {
+    display: flex;
+    align-items: center; /* Center align items vertically */
+}
+
+.username {
+    margin-right: 10px; /* Space between username and button */
+}
+
+.logout-btn {
+    padding: 8px 12px; /* Add padding for button */
+    border: none;
+    border-radius: 5px; /* Rounded corners */
+    background-color: #feb236; /* Background color */
+    color: #333; /* Text color */
+    cursor: pointer; /* Pointer on hover */
+    transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+.logout-btn:hover {
+    background-color: #f2f2f2; /* Change button color on hover */
+    color: #6b5b95; /* Change text color on hover */
+}

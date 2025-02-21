@@ -1,0 +1,15 @@
+[
+    {
+      "id": 1,
+      "item": "Fertilizer",
+      "quantity": "10 bags",
+      "lastUpdated": "2024-01-25"
+    },
+    {
+      "id": 2,
+      "item": "Pesticides",
+      "quantity": "5 bottles",
+      "lastUpdated": "2024-01-28"
+    }
+  ]
+  

@@ -1,0 +1,128 @@
+.home {
+    padding: 20px;
+    text-align: center;
+    background-color: #f9f9f9;
+    animation: fadeIn 1s ease-in-out; /* Fade-in effect */
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.hero-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+    animation: slideIn 1s ease-in-out; /* Slide-in effect */
+}
+
+@keyframes slideIn {
+    from {
+        transform: translateY(-20px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.hero-image {
+    width: 50%; /* Adjust the width as needed */
+    border-radius: 10px;
+    margin-right: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s; /* Image scaling on hover */
+}
+
+.hero-image:hover {
+    transform: scale(1.05); /* Scale effect on hover */
+}
+
+.hero-text {
+    max-width: 400px;
+}
+
+.services,
+.testimonials,
+.call-to-action {
+    margin: 40px 0;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s; /* Box-shadow effect */
+}
+
+.services:hover,
+.testimonials:hover,
+.call-to-action:hover {
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* Increased shadow on hover */
+}
+
+.service-item,
+.testimonial-item {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+    animation: fadeIn 0.5s ease-in-out; /* Fade-in effect for items */
+}
+
+.service-image,
+.testimonial-image {
+    width: 80px; /* Adjust size as needed */
+    height: 80px;
+    border-radius: 50%; /* Circular images */
+    margin-right: 20px;
+    transition: transform 0.3s; /* Image scaling on hover */
+}
+
+.service-image:hover,
+.testimonial-image:hover {
+    transform: scale(1.1); /* Scale effect on hover */
+}
+
+.service-description {
+    text-align: left;
+}
+
+.testimonial-text {
+    text-align: left;
+}
+
+.call-to-action {
+    text-align: center;
+}
+
+.cta-button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s; /* Button effects */
+}
+
+.cta-button:hover {
+    background-color: #45a049;
+    transform: scale(1.05); /* Scale effect on hover */
+}
+
+@media (max-width: 768px) {
+    .hero-section {
+        flex-direction: column;
+    }
+
+    .hero-image {
+        width: 100%; /* Full width on smaller screens */
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+}

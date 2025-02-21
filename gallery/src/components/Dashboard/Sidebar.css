@@ -1,0 +1,30 @@
+.sidebar {
+    background-color: #f0f0f0; /* Light background color */
+    padding: 20px;
+    width: 250px; /* Fixed width for the sidebar */
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.sidebar h2 {
+    margin-bottom: 15px; /* Space below the heading */
+    font-size: 20px; /* Font size for the heading */
+    color: #333; /* Dark color for the heading */
+}
+
+.search-bar {
+    width: 100%; /* Full width for the search bar */
+    padding: 8px; /* Padding for input */
+    border: 1px solid #ccc; /* Border for input */
+    border-radius: 4px; /* Rounded corners */
+    margin-bottom: 15px; /* Space below the search bar */
+}
+
+.category-item {
+    padding: 10px; /* Padding for each category item */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+.category-item:hover {
+    background-color: #ddd; /* Change background color on hover */
+}

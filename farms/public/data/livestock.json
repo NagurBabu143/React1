@@ -1,0 +1,21 @@
+[
+    {
+      "id": 1,
+      "name": "Cow",
+      "breed": "Jersey",
+      "age": 4,
+      "healthStatus": "Healthy",
+      "feedingSchedule": "Twice a day",
+      "lastVaccination": "2024-01-15"
+    },
+    {
+      "id": 2,
+      "name": "Goat",
+      "breed": "Boer",
+      "age": 2,
+      "healthStatus": "Needs Checkup",
+      "feedingSchedule": "Three times a day",
+      "lastVaccination": "2023-12-10"
+    }
+  ]
+  

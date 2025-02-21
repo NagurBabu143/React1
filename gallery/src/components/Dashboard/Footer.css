@@ -1,0 +1,75 @@
+.footer {
+    background: linear-gradient(135deg, #6b5b95, #feb236); /* Gradient background */
+    color: white;
+    padding: 30px 0;
+    position: relative; /* For the box shadow */
+    overflow: hidden; /* Hide overflow */
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center; /* Center align items vertically */
+    flex-wrap: wrap; /* Allow wrapping on smaller screens */
+    padding: 0 20px;
+}
+
+.footer-content div {
+    flex: 1; /* Make each section flexible */
+    min-width: 200px; /* Minimum width for each section */
+    margin: 10px;
+    text-align: center; /* Center text in each section */
+    position: relative; /* For the box shadow */
+    padding: 20px; /* Add padding for space */
+    border-radius: 8px; /* Round corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Add shadow */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition */
+}
+
+.footer-content div:hover {
+    transform: translateY(-5px); /* Move up on hover */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3); /* Increase shadow on hover */
+}
+
+.footer-content h4 {
+    margin-bottom: 10px;
+}
+
+.footer-content ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-content ul li {
+    margin: 5px 0;
+}
+
+.footer-content ul li a {
+    color: white;
+    text-decoration: none;
+    position: relative; /* For underline animation */
+}
+
+.footer-content ul li a::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: white;
+    transition: width 0.3s ease;
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+}
+
+.footer-content ul li a:hover::after {
+    width: 100%; /* Animate underline */
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+    border-top: 1px solid rgba(255, 255, 255, 0.2); /* Lighter border color */
+    padding-top: 10px;
+    font-size: 14px; /* Slightly smaller font */
+}

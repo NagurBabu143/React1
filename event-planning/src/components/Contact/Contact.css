@@ -1,0 +1,101 @@
+.contact {
+    padding: 40px;
+    background-color: #f9f9f9; /* Light background color */
+    color: #333; /* Dark text color */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    animation: fadeIn 1s ease-in-out; /* Fade-in effect */
+}
+
+.contact-content {
+    display: flex; /* Flexbox for image and form layout */
+    align-items: center; /* Center items vertically */
+}
+
+.contact-image {
+    flex: 1; /* Take one part of the flex container */
+    text-align: center; /* Center image */
+}
+
+.contact-image img {
+    max-width: 100%; /* Responsive image */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 10px; /* Rounded corners for image */
+}
+
+.contact-form {
+    flex: 1; /* Take one part of the flex container */
+    padding-left: 20px; /* Space between image and form */
+}
+
+.contact h2 {
+    margin-bottom: 20px; /* Space below heading */
+}
+
+.contact p {
+    margin-bottom: 30px; /* Space below paragraph */
+    font-size: 1.1em; /* Slightly larger font size */
+}
+
+form {
+    display: flex; /* Flexbox layout for form */
+    flex-direction: column; /* Column layout */
+}
+
+label {
+    margin-bottom: 5px; /* Space below labels */
+    text-align: left; /* Left-align labels */
+    width: 100%; /* Full width for labels */
+}
+
+input, textarea {
+    width: 100%; /* Width of inputs and textarea */
+    padding: 10px; /* Padding for inputs */
+    margin-bottom: 20px; /* Space below inputs */
+    border: 1px solid #ccc; /* Border color */
+    border-radius: 5px; /* Rounded corners */
+    transition: border-color 0.3s; /* Transition for border color */
+}
+
+input:focus, textarea:focus {
+    border-color: #4CAF50; /* Green border on focus */
+    outline: none; /* Remove outline */
+}
+
+button {
+    padding: 10px 20px; /* Padding for button */
+    background-color: #4CAF50; /* Green background */
+    color: white; /* White text color */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor */
+    transition: background-color 0.3s, transform 0.3s; /* Transition for background color and scale */
+}
+
+button:hover {
+    background-color: #45a049; /* Darker green on hover */
+    transform: scale(1.05); /* Scale effect on hover */
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0; /* Start transparent */
+    }
+    to {
+        opacity: 1; /* End fully visible */
+    }
+}
+
+@media (max-width: 768px) {
+    .contact-content {
+        flex-direction: column; /* Stack on smaller screens */
+    }
+
+    .contact-image {
+        margin-bottom: 20px; /* Space below image */
+    }
+
+    .contact-form {
+        padding-left: 0; /* Remove left padding on smaller screens */
+    }
+}

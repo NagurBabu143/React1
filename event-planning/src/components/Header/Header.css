@@ -1,0 +1,102 @@
+.header {
+    background-color: #fa8343;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: background-color 0.3s; /* Smooth background color transition */
+}
+
+.header:hover {
+    background-color: #a7c2fe; /* Darker green on hover */
+}
+
+.logo-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.logo {
+    margin: 0;
+    font-size: 2.5em; /* Increase font size */
+    transition: transform 0.3s; /* Add transition for logo scaling */
+}
+
+.logo:hover {
+    transform: scale(1.1); /* Scale up logo on hover */
+}
+
+.tagline {
+    font-size: 1.2em;
+    margin: 5px 0;
+    font-style: italic;
+    text-align: center;
+    width: 100%;
+}
+
+.header-extras {
+    display: flex;
+    align-items: center;
+}
+
+.contact-button {
+    background-color: #fff;
+    color: #4CAF50;
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 15px;
+    transition: background-color 0.3s, transform 0.3s; /* Add transition for hover effect */
+}
+
+.contact-button:hover {
+    background-color: #ddd;
+    transform: translateY(-2px); /* Move button up on hover */
+}
+
+.search-input {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    width: 200px;
+    margin-right: 15px;
+    transition: border 0.3s; /* Add transition for input border */
+}
+
+.search-input:focus {
+    outline: none; /* Remove outline on focus */
+    border: 2px solid #fff; /* Change border color on focus */
+}
+
+.social-icons {
+    display: flex;
+}
+
+.social-icon {
+    color: white;
+    font-size: 1.5em;
+    margin-left: 15px;
+    cursor: pointer;
+    transition: color 0.3s, transform 0.3s; /* Add transition for color and scaling */
+}
+
+.social-icon:hover {
+    color: #ddd;
+    transform: scale(1.1); /* Scale up icon on hover */
+}
+
+@media (max-width: 768px) {
+    .header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .header-extras {
+        margin-top: 10px;
+        justify-content: flex-start;
+    }
+}

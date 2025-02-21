@@ -1,0 +1,99 @@
+.inventory {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #f8f9fa;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    animation: fadeIn 0.8s ease-in-out;
+  }
+  
+  h2 {
+    color: #2c3e50;
+  }
+  
+  p {
+    font-size: 16px;
+    color: #ff0505;
+  }
+  
+  table {
+    width: 100%;
+    margin-top: 15px;
+    border-collapse: collapse;
+    background: #fff;
+  }
+  
+  th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+  }
+  
+  th {
+    background: #007bff;
+    color: white;
+  }
+  
+  button {
+    padding: 5px 10px;
+    margin: 5px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    transition: 0.3s;
+    border-radius: 5px;
+  }
+  
+  button.increase {
+    background: #28a745;
+    color: white;
+  }
+  
+  button.decrease {
+    background: #dc3545;
+    color: white;
+  }
+  
+  button.remove {
+    background: #ff5733;
+    color: white;
+  }
+  
+  button.add {
+    background: #007bff;
+    color: white;
+    font-size: 18px;
+    padding: 10px 20px;
+  }
+  
+  button:hover {
+    opacity: 0.8;
+  }
+  
+
+  .add-item-form {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .add-item-form input {
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(-10px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  

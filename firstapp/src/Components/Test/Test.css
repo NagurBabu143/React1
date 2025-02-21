@@ -1,0 +1,13 @@
+.test{
+   color: #f60d0d;
+   background-color: bisque;
+}
+.test p{
+   color: black;
+   padding: 20px;
+   margin: 10px;
+   text-align: center;
+   border: 3px solid red;
+   border-radius: 10px;
+   
+}

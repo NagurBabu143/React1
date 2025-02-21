@@ -1,0 +1,73 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+  }
+  
+  h1 {
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  center {
+    width: 100%;
+  }
+  
+  button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 10px;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  .Background {
+    width: 100%;
+    height: 200px;
+    background-color: #2196f3;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .Feedback, .Login, .Sign, .Reservation, .Job {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    margin: 10px;
+  }
+  
+  @media (max-width: 480px) {
+    button {
+      width: 100%;
+    }
+  
+    .Background {
+      height: 150px;
+    }
+  
+    .Feedback, .Login, .Sign, .Reservation, .Job {
+      width: 90%;
+    }
+  }
+  

@@ -1,0 +1,123 @@
+[
+    {
+      "id": 1,
+      "name": "Veggie Pasta",
+      "image": "/images/veggie-pasta.jpg",
+      "ingredients": ["Pasta", "Tomatoes", "Garlic", "Olive Oil"],
+      "preparationTime": 20,
+      "isVegetarian": true
+    },
+    {
+      "id": 2,
+      "name": "Chicken Curry",
+      "image": "/images/chicken-curry.jpg",
+      "ingredients": ["Chicken", "Onion", "Garlic", "Spices"],
+      "preparationTime": 40,
+      "isVegetarian": false
+    },
+    {
+      "id": 3,
+      "name": "Grilled Cheese Sandwich",
+      "image": "/images/grilled-cheese.jpg",
+      "ingredients": ["Bread", "Cheese", "Butter"],
+      "preparationTime": 10,
+      "isVegetarian": true
+    },
+    {
+      "id": 4,
+      "name": "Beef Steak",
+      "image": "/images/beef-steak.jpg",
+      "ingredients": ["Beef", "Salt", "Pepper", "Butter"],
+      "preparationTime": 30,
+      "isVegetarian": false
+    },
+    {
+      "id": 5,
+      "name": "Vegetable Stir Fry",
+      "image": "/images/veg-stir-fry.jpg",
+      "ingredients": ["Carrots", "Bell Peppers", "Broccoli", "Soy Sauce"],
+      "preparationTime": 15,
+      "isVegetarian": true
+    },
+    {
+      "id": 6,
+      "name": "Shrimp Fried Rice",
+      "image": "/images/shrimp-fried-rice.jpg",
+      "ingredients": ["Shrimp", "Rice", "Egg", "Soy Sauce"],
+      "preparationTime": 25,
+      "isVegetarian": false
+    },
+    {
+      "id": 7,
+      "name": "Margherita Pizza",
+      "image": "/images/margherita-pizza.jpg",
+      "ingredients": ["Pizza Dough", "Tomatoes", "Mozzarella", "Basil"],
+      "preparationTime": 35,
+      "isVegetarian": true
+    },
+    {
+      "id": 8,
+      "name": "Salmon Teriyaki",
+      "image": "/images/salmon-teriyaki.jpg",
+      "ingredients": ["Salmon", "Teriyaki Sauce", "Garlic", "Ginger"],
+      "preparationTime": 30,
+      "isVegetarian": false
+    },
+    {
+      "id": 9,
+      "name": "Lentil Soup",
+      "image": "/images/lentil-soup.jpg",
+      "ingredients": ["Lentils", "Carrots", "Onions", "Garlic"],
+      "preparationTime": 40,
+      "isVegetarian": true
+    },
+    {
+      "id": 10,
+      "name": "BBQ Chicken Wings",
+      "image": "/images/bbq-chicken-wings.jpg",
+      "ingredients": ["Chicken Wings", "BBQ Sauce", "Garlic", "Paprika"],
+      "preparationTime": 35,
+      "isVegetarian": false
+    },
+    {
+      "id": 11,
+      "name": "Falafel Wrap",
+      "image": "/images/falafel-wrap.jpg",
+      "ingredients": ["Falafel", "Pita Bread", "Lettuce", "Tahini"],
+      "preparationTime": 20,
+      "isVegetarian": true
+    },
+    {
+      "id": 12,
+      "name": "Beef Tacos",
+      "image": "/images/beef-tacos.jpg",
+      "ingredients": ["Beef", "Tortillas", "Lettuce", "Cheese"],
+      "preparationTime": 25,
+      "isVegetarian": false
+    },
+    {
+      "id": 13,
+      "name": "Caprese Salad",
+      "image": "/images/caprese-salad.jpg",
+      "ingredients": ["Tomatoes", "Mozzarella", "Basil", "Olive Oil"],
+      "preparationTime": 10,
+      "isVegetarian": true
+    },
+    {
+      "id": 14,
+      "name": "Fish Tikka",
+      "image": "/images/fish-tikka.jpg",
+      "ingredients": ["Fish", "Yogurt", "Spices", "Lemon"],
+      "preparationTime": 30,
+      "isVegetarian": false
+    },
+    {
+      "id": 15,
+      "name": "Mushroom Risotto",
+      "image": "/images/mushroom-risotto.jpg",
+      "ingredients": ["Rice", "Mushrooms", "Parmesan", "Garlic"],
+      "preparationTime": 45,
+      "isVegetarian": true
+    }
+  ]
+  

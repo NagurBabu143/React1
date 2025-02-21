@@ -1,0 +1,56 @@
+.property-card {
+    background-color: #f8d4d4;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 15px;
+    transition: transform 0.3s, box-shadow 0.3s;
+    text-align: left;
+  }
+  
+  .property-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .property-title {
+    font-size: 1.5em;
+    color: #3f51b5;
+    margin-bottom: 10px;
+  }
+  
+  .property-location,
+  .property-size,
+  .property-price,
+  .property-type {
+    color: #666;
+    margin: 5px 0;
+  }
+  
+  .contact-button,
+  .favorite-button {
+    background-color: #3f51b5;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-right: 10px;
+    transition: background-color 0.3s, transform 0.3s;
+  }
+  
+  .contact-button:hover,
+  .favorite-button:hover {
+    background-color: #1e88e5;
+    transform: scale(1.05);
+  }
+  
+  .favorite-button {
+    background-color: #ff9800;
+  }
+  
+  .favorite-button:hover {
+    background-color: #fb8c00;
+  }
+  

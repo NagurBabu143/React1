@@ -1,0 +1,51 @@
+.property-detail {
+    background-color: #f9f9f9;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    margin: 20px auto;
+    max-width: 600px;
+    transition: transform 0.3s, box-shadow 0.3s;
+    text-align: left;
+  }
+  
+  .property-detail:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .property-title {
+    font-size: 2em;
+    color: #3f51b5;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #3f51b5;
+    padding-bottom: 10px;
+  }
+  
+  .property-price,
+  .property-location,
+  .property-size,
+  .property-type,
+  .property-description {
+    color: #333;
+    margin: 10px 0;
+    font-size: 1.1em;
+  }
+  
+  .contact-button {
+    background-color: #3f51b5;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    padding: 12px 20px;
+    cursor: pointer;
+    font-size: 18px;
+    margin-top: 20px;
+    transition: background-color 0.3s, transform 0.3s;
+  }
+  
+  .contact-button:hover {
+    background-color: #1e88e5;
+    transform: scale(1.05);
+  }
+  

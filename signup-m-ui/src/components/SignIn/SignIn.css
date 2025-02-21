@@ -1,0 +1,51 @@
+.signin-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #42a5f5, #1976d2);
+  }
+  
+  .signin-paper {
+    padding: 30px;
+    text-align: center;
+    width: 100%;
+    max-width: 400px;
+    border-radius: 12px;
+    background: white;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  }
+  
+  .signin-title {
+    color: #1976d2;
+    font-weight: bold;
+    margin-bottom: 15px;
+  }
+  
+  .signin-button {
+    margin-top: 15px;
+    background: linear-gradient(45deg, #1976d2, #42a5f5);
+    color: white;
+    font-weight: bold;
+    transition: transform 0.2s;
+  }
+  
+  .signin-button:hover {
+    transform: scale(1.05);
+  }
+  
+  .signin-text {
+    margin-top: 10px;
+    color: #333;
+  }
+  
+  .signup-link {
+    color: #1976d2;
+    cursor: pointer;
+    transition: color 0.3s;
+  }
+  
+  .signup-link:hover {
+    color: #0d47a1;
+  }
+  

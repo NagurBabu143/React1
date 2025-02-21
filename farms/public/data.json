@@ -1,0 +1,43 @@
+{
+    "livestock": [
+      {
+        "id": 1,
+        "type": "Cow",
+        "breed": "Holstein",
+        "age": 3,
+        "healthStatus": "Healthy"
+      },
+      {
+        "id": 2,
+        "type": "Goat",
+        "breed": "Nubian",
+        "age": 2,
+        "healthStatus": "Healthy"
+      }
+    ],
+    "milkProduction": [
+      {
+        "date": "2025-02-01",
+        "quantity": 150,
+        "unit": "liters"
+      },
+      {
+        "date": "2025-02-02",
+        "quantity": 160,
+        "unit": "liters"
+      }
+    ],
+    "employees": [
+      {
+        "id": 1,
+        "name": "John Doe",
+        "position": "Manager"
+      },
+      {
+        "id": 2,
+        "name": "Jane Smith",
+        "position": "Veterinarian"
+      }
+    ]
+  }
+  

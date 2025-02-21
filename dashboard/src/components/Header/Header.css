@@ -1,0 +1,60 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #17035a;
+    color: white;
+  }
+  
+  .logo {
+    font-size: 1.8rem;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+  }
+  
+  .nav-links {
+    display: flex;
+    list-style: none;
+    gap: 1.5rem;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: color 0.3s;
+  }
+  
+  .nav-links a:hover {
+    color: #ffd700;
+  }
+  
+  .profile {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+  
+  .profile-pic {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    border: 2px solid white;
+  }
+  
+  .logout-btn {
+    padding: 0.5rem 1rem;
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 0.8rem;
+    cursor: pointer;
+  }
+  
+  .logout-btn:hover {
+    background-color: #0bfa67;
+  }
+  

@@ -1,0 +1,125 @@
+
+// 1. useState
+// Syntax:
+// const [state, setState] = useState(initialState);
+
+// How it Works:
+// useState initializes a state variable and a function to update it. The initialState is the initial value of the state.
+
+// Example:
+
+// import React, { useState } from 'react';
+// function Counter() {
+//   const [count, setCount] = useState(0); // Initial count is 0
+//   return (
+//     <div>
+//       <p>You clicked {count} times</p>
+//       <button onClick={() => setCount(count + 1)}>Click me</button>
+//     </div>
+//   );
+// }
+
+
+
+
+// 2. useEffect
+// Syntax:
+// useEffect(() => {
+//   // Side effect code here
+// }, [dependencies]);
+
+// How it Works:
+// useEffect runs the provided function after the component renders. It can also run cleanup code. The dependencies array controls when the effect runs (only when the values in the array change).
+
+// Example:
+
+// import React, { useState, useEffect } from 'react';
+// function Example() {
+//   const [count, setCount] = useState(0);
+//   useEffect(() => {
+//     document.title = `You clicked ${count} times`; // Update document title
+//   }, [count]); // Run effect only when count changes
+//   return (
+//     <div>
+//       <p>You clicked {count} times</p>
+//       <button onClick={() => setCount(count + 1)}>Click me</button>
+//     </div>
+//   );
+// }
+
+
+
+// 3. useContext
+
+// Syntax:
+// const value = useContext(MyContext);
+
+// How it Works:
+// useContext allows you to access the value of a context directly without wrapping the component in a Context.Consumer.
+
+// Example:
+
+// import React, { useContext } from 'react';
+// const ThemeContext = React.createContext('light');
+// function ThemedButton() {
+//   const theme = useContext(ThemeContext); // Get current theme value
+//   return <button className={theme}>I am styled by theme context!</button>;
+// }
+
+
+
+
+// 4. useReducer
+// Syntax:
+// const [state, dispatch] = useReducer(reducer, initialState);
+// How it Works:
+// useReducer is used for complex state management. It takes a reducer function and an initial state, returning the current state and a dispatch function to update it.
+// Example:
+// import React, { useReducer } from 'react';
+// const initialState = { count: 0 };
+// function reducer(state, action) {
+//   switch (action.type) {
+//     case 'increment':
+//       return { count: state.count + 1 };
+//     case 'decrement':
+//       return { count: state.count - 1 };
+//     default:
+//       throw new Error();
+//   }
+// }
+// function Counter() {
+//   const [state, dispatch] = useReducer(reducer, initialState);
+//   return (
+//     <>
+//       Count: {state.count}
+//       <button onClick={() => dispatch({ type: 'increment' })}>+</button>
+//       <button onClick={() => dispatch({ type: 'decrement' })}>-</button>
+//     </>
+//   );
+// }
+
+
+
+
+// 5. Custom Hooks
+// Syntax:
+// function useCustomHook() {
+//   // Hook logic
+// }
+// How it Works:
+// Custom hooks are functions that can call other hooks. They allow you to encapsulate reusable logic.
+// Example:
+// import { useState, useEffect } from 'react';
+// function useFetch(url) {
+//   const [data, setData] = useState(null);
+//   const [loading, setLoading] = useState(true);
+//   useEffect(() => {
+//     const fetchData = async () => {
+//       const response = await fetch(url);
+//       const result = await response.json();
+//       setData(result);
+//       setLoading(false);
+//     };
+//     fetchData();
+//   }, [url]);
+//   return { data, loading }; // Return fetched data and loading state

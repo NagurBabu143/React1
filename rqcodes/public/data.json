@@ -1,0 +1,26 @@
+{
+    "events": [
+      {
+        "name": "Jandalu",
+        "date": "2025-03-10",
+        "time": "6:00 PM",
+        "venue": "XYZ Function Hall, City",
+        "description": "Traditional event before the wedding."
+      },
+      {
+        "name": "Nikah",
+        "date": "2025-03-12",
+        "time": "11:00 AM",
+        "venue": "ABC Mosque, City",
+        "description": "The main wedding ceremony."
+      },
+      {
+        "name": "Valima",
+        "date": "2025-03-14",
+        "time": "7:00 PM",
+        "venue": "Grand Banquet Hall, City",
+        "description": "Reception for friends and family."
+      }
+    ]
+  }
+  

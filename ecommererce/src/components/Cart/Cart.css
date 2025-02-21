@@ -1,0 +1,10 @@
+.cart {
+    padding: 20px;
+    background-color: #f9f9f9;
+  }
+  
+  .cart ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  

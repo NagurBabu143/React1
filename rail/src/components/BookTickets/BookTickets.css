@@ -1,0 +1,67 @@
+.book-tickets {
+    padding: 60px 100px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    animation: fade-in 1s ease-in-out;
+    text-align: center;
+}
+
+.book-tickets h2 {
+    font-size: 36px;
+    color: #004aad;
+    margin-bottom: 20px;
+}
+
+.ticket-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-input {
+    width: 300px;
+    padding: 15px;
+    margin: 10px 0;
+    border: 2px solid #004aad;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: border-color 0.3s;
+}
+
+.form-input:focus {
+    border-color: #007bff;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+.search-button {
+    background-color: #004aad;
+    color: #fff;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.search-button:hover {
+    background-color: #007bff;
+    transform: translateY(-2px);
+}
+
+.error-message {
+    color: red;
+    margin: 10px 0;
+    font-size: 14px;
+}
+
+@keyframes fade-in {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}

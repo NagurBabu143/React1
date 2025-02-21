@@ -1,0 +1,14 @@
+[
+    {
+        "id": 1,
+        "type": "Cattle",
+        "quantity": 10,
+        "healthStatus": "Healthy"
+    },
+    {
+        "id": 2,
+        "type": "Sheep",
+        "quantity": 15,
+        "healthStatus": "Sick"
+    }
+]

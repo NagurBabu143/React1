@@ -1,0 +1,55 @@
+
+.nagur {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 75vh;
+    background-color: #8e8ef5;
+    font-family: Arial, sans-serif;
+}
+
+.nagur form {
+    background-color: #ffffff;
+    padding: 20px 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+}
+
+.nagur form .name,
+.nagur form > div {
+    margin-bottom: 5px;
+}
+
+.nagur form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333333;
+}
+
+.nagur form input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    outline: none;
+    transition: border-color 0.3s ease;
+}
+
+
+.nagur form button {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+

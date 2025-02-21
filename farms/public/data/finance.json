@@ -1,0 +1,32 @@
+
+{
+    "income": [
+      {
+        "id": 1,
+        "source": "Wheat Sales",
+        "amount": 5000,
+        "date": "2024-01-30"
+      },
+      {
+        "id": 2,
+        "source": "Milk Sales",
+        "amount": 2000,
+        "date": "2024-02-01"
+      }
+    ],
+    "expenses": [
+      {
+        "id": 1,
+        "category": "Seeds",
+        "amount": 1000,
+        "date": "2024-01-05"
+      },
+      {
+        "id": 2,
+        "category": "Equipment Repair",
+        "amount": 1500,
+        "date": "2024-01-20"
+      }
+    ]
+  }
+  

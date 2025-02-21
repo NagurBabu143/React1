@@ -1,0 +1,4 @@
+[
+    {"id": 1, "product": "Honey", "amount": 200, "date": "2025-01-01"},
+    {"id": 2, "product": "Milk", "amount": 100, "date": "2025-01-02"}
+]

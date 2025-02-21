@@ -1,0 +1,105 @@
+.app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f0f8ff;
+    min-height: 100vh;
+    
+    padding: 20px;
+    font-family: 'Arial', sans-serif;
+    transition: background-color 0.3s;
+  }
+  
+  h1 {
+    color: #333;
+    margin-bottom: 20px;
+    font-size: 2.5rem;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+    transition: color 0.3s;
+  }
+  
+  h1:hover {
+    color: #007bff;
+  }
+  
+  input[type="text"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 300px;
+    transition: border-color 0.3s, box-shadow 0.3s;
+  }
+  
+  input[type="text"]:focus {
+    border-color: #007bff;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  }
+  
+  .filters {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s, transform 0.3s;
+  }
+  
+  .filters:hover {
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+    transform: translateY(-2px);
+  }
+  
+  .reset-btn {
+    padding: 8px 12px;
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+  }
+  
+  .reset-btn:hover {
+    background-color: #ff1a1a;
+    transform: scale(1.05);
+  }
+  
+
+  .recipe-card {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 15px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .recipe-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .recipe-image {
+    width: 100%;
+    border-radius: 4px;
+    transition: transform 0.3s;
+  }
+  
+  .recipe-image:hover {
+    transform: scale(1.05);
+  }
+  
+  .recipe-name {
+    font-size: 1.5rem;
+    margin: 10px 0;
+    color: #007bff;
+    transition: color 0.3s;
+  }
+  
+  .recipe-name:hover {
+    color: #0056b3;
+  }
+  

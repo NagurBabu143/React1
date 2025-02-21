@@ -1,0 +1,15 @@
+[
+    {
+      "id": 1,
+      "name": "John Doe",
+      "role": "Farm Manager",
+      "contact": "john@example.com"
+    },
+    {
+      "id": 2,
+      "name": "Alice Smith",
+      "role": "Field Worker",
+      "contact": "alice@example.com"
+    }
+  ]
+  

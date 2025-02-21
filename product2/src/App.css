@@ -1,0 +1,21 @@
+.App {
+  text-align: center;
+}
+
+.product-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.product-card {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px;
+  width: 150px;
+}
+
+.filter, .sort {
+  margin: 20px;
+}

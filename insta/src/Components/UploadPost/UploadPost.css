@@ -1,0 +1,15 @@
+.upload-post {
+    padding: 20px;
+  }
+  
+  .upload-post form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .upload-post textarea {
+    resize: none;
+    padding: 10px;
+  }
+  

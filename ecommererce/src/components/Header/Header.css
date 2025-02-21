@@ -1,0 +1,138 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #343a40; /* Dark background for the header */
+    color: white; /* White text color */
+    padding: 10px 20px;
+    position: relative; /* For dropdown positioning */
+  }
+  
+  .logo h1 {
+    margin: 0;
+    font-size: 24px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 20px; /* Spacing between items */
+  }
+  
+  nav ul li {
+    display: inline;
+  }
+  
+  nav button {
+    background: none; /* Remove default button background */
+    color: white; /* Button text color */
+    border: none; /* Remove button border */
+    cursor: pointer; /* Show pointer cursor on hover */
+    font-size: 16px; /* Button text size */
+  }
+  
+  nav button:hover {
+    text-decoration: underline; /* Underline on hover */
+  }
+  
+  .search-bar {
+    display: flex;
+    align-items: center;
+  }
+  
+  .search-bar input {
+    padding: 5px;
+    border: none; /* Remove default border */
+    border-radius: 4px 0 0 4px; /* Rounded corners */
+    outline: none; /* Remove outline */
+  }
+  
+  .search-button {
+    padding: 5px 10px;
+    border: none; /* Remove default border */
+    background-color: #007bff; /* Button background color */
+    color: white; /* Button text color */
+    border-radius: 0 4px 4px 0; /* Rounded corners */
+    cursor: pointer; /* Show pointer cursor on hover */
+  }
+  
+  .search-button:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+  }
+  
+  .user-icon {
+    position: relative; /* For dropdown positioning */
+    cursor: pointer; /* Show pointer cursor */
+    margin-left: 20px; /* Spacing from other elements */
+  }
+  
+  .dropdown-menu {
+    position: absolute; /* Absolute positioning for dropdown */
+    top: 100%; /* Below the user icon */
+    right: 0; /* Align right */
+    background-color: #343a40; /* Same background as header */
+    border: 1px solid #007bff; /* Border to differentiate */
+    border-radius: 4px; /* Rounded corners */
+    padding: 10px; /* Padding around menu items */
+    z-index: 100; /* Ensure it's on top */
+    animation: fadeIn 0.2s; /* Animation for dropdown */
+  }
+  
+  .dropdown-menu button {
+    background: none; /* Remove default button background */
+    color: white; /* Text color */
+    border: none; /* Remove button border */
+    cursor: pointer; /* Show pointer cursor */
+    padding: 5px 10px; /* Padding around button */
+    display: block; /* Make button take full width */
+    width: 100%; /* Full width */
+    text-align: left; /* Align text to the left */
+  }
+  
+  .dropdown-menu button:hover {
+    background-color: #0056b3; /* Background color on hover */
+  }
+  
+  .cart-icon {
+    position: relative; /* Position relative for cart count */
+  }
+  
+  .cart-count {
+    position: absolute; /* Absolute positioning for cart count */
+    top: -5px; /* Adjust position */
+    right: -10px; /* Adjust position */
+    background-color: #ff4757; /* Red background */
+    color: white; /* White text */
+    border-radius: 50%; /* Circle shape */
+    padding: 2px 6px; /* Padding */
+    font-size: 12px; /* Font size */
+  }
+  
+  /* Animation for dropdown */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(-10px); /* Slide down */
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .header {
+      flex-direction: column; /* Stack elements on small screens */
+      align-items: flex-start; /* Align to the left */
+    }
+    nav ul {
+      flex-direction: column; /* Stack nav items */
+      gap: 10px; /* Smaller gap */
+    }
+    .search-bar {
+      width: 100%; /* Full width search bar */
+      margin: 10px 0; /* Spacing above and below */
+    }
+  }
+  
