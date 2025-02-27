@@ -1,0 +1,85 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7d8d8;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .notes-container {
+    width: 100%;
+    max-width: 600px;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .notes-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .MuiButton-root {
+    background-color: #1976d2 !important;
+    color: white !important;
+  }
+  
+  .MuiButton-root:hover {
+    background-color: #1565c0 !important;
+  }
+  
+  .notes-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .note-card {
+    min-width: 250px;
+    max-width: 300px;
+    min-height: 150px;
+    background-color: white;
+    border-radius: 8px;
+    transition: 0.3s;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .note-card:hover {
+    transform: scale(1.02);
+  }
+  
+  .note-content {
+    padding: 16px;
+  }
+  
+  .note-title {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 8px;
+  }
+  
+  .note-text {
+    font-size: 14px;
+    color: #555;
+  }
+  
+  .note-actions {
+    display: flex;
+    justify-content: flex-end;
+    padding: 8px;
+  }
+  
+  .note-actions .MuiIconButton-root {
+    margin-left: 5px;
+  }
+  
